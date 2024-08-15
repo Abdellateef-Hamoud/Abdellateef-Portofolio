@@ -645,6 +645,7 @@ textarea {
         margin-right: auto;
         display: block;
         margin-bottom: 160px;
+        display: none;
       
     
     }
@@ -749,6 +750,8 @@ textarea {
         height: 50px;
     }
 }
+
+
 @media(max-width:379px){
     header .header-content img{
         max-width: 450px;
@@ -756,6 +759,7 @@ textarea {
         height: 600px;
         /* margin-top: 57px; */
         margin-bottom: 335px;
+        display: none;
        
     }
 }
