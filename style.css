@@ -145,6 +145,7 @@ header .header-content img{
     height: 600px;
     margin-top: 57px;
     /* transition: all 0.7s ease; */
+    display: none;
 }
 /* header .header-content img:hover{
     transform: scale(0.8);
