@@ -144,16 +144,8 @@ header .header-content img{
     margin-left: 100px;
     height: 600px;
     margin-top: 57px;
-    /* transition: all 0.7s ease; */
-    display: none;
+   
 }
-/* header .header-content img:hover{
-    transform: scale(0.8);
-} */
-/* Header End */
-
-
-/* About start */
 #about ,
 #skills,
 #services,
@@ -612,6 +604,9 @@ textarea {
     }
 
     /* Navbar */
+    #home{
+        max-height: 540px;
+    }
     #home .navbar nav {
         padding: 1rem 1rem;
     }
@@ -623,13 +618,11 @@ textarea {
 
     /* Header */
     #home .header-content {
-        padding: 3rem 1rem 0;
+        padding: 3rem 3rem 0;
+        
     }
 
-    #home .header-content .content-text {
-        margin-top: 5rem;
-        margin-top: 400px;
-    }
+  
 
     #home .header-content h1 {
         font-size: 40px;
@@ -640,12 +633,6 @@ textarea {
     }
 
     header .header-content img {
-        max-width: 300px;
-        max-height: 250px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        margin-bottom: 160px;
         display: none;
       
     
@@ -752,15 +739,33 @@ textarea {
     }
 }
 
+@media (min-width:228px) and (max-width:528px){
+    #home{
+        max-height: 560px;
+    }
+    
+}
 
-@media(max-width:379px){
-    header .header-content img{
-        max-width: 450px;
-        /* margin-left: 100px; */
-        height: 600px;
-        /* margin-top: 57px; */
-        margin-bottom: 335px;
+@media (min-width:769px) and (max-width:1480px){
+
+
+    header .header-content img {
         display: none;
-       
+      
+    
+    }
+    #home{
+        max-height: 500px;
+    }
+    #home .header-content {
+        padding: 3rem 3rem 0;
+        
+    }
+}
+@media (max-width:540px){
+    header .header-content img {
+        display: none;
+      
+    
     }
 }
